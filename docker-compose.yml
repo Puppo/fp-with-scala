@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  fp_with_scala_fp_dev:
+    build: ${PWD}/docker/dev
+    container_name: fp_with_scala_fp_dev
+    hostname: fp_with_scala_fp_dev
+    tty: true
+    volumes:
+      - ./:/app/
