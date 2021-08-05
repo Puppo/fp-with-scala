@@ -1,9 +1,13 @@
 package example
 
+import example._
+
 object Program {
 
     def main(args: Array[String]): Unit = {
-        println("Hello World!")
+        ListProgram.mainList()
+
+        TreeProgram.mainTree()
     }
 
 }
